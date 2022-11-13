@@ -1,6 +1,6 @@
 name: ExamplePlugin
 version: 1.0.0
-main: io.papermc.testplugin.ExamplePlugin
+main: io.github.ninjasquid.meteor.MeteorAttack
 description: An example plugin
 author: PaperMC
 website: https://papermc.io
