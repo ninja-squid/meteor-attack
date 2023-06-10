@@ -1,0 +1,8 @@
+# default config.yml
+max_meteors: 5
+impact_max_dist: 40
+impact_min_dist: 10
+meteor_tick_probability: 0.0001
+meteor_spawn_distance_3d: 1000
+meteor_speed_blocks_per_ms: 0.05
+meteor_cluster_spread: 5

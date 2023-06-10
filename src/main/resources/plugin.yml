@@ -1,7 +1,18 @@
-name: ExamplePlugin
+name: MeteorAttack
 version: 1.0.0
 main: io.github.ninjasquid.meteor.MeteorAttack
 description: An example plugin
-author: PaperMC
-website: https://papermc.io
+author: NinjaSquid, SamuraiOctopus
+website: https://github.com/ninja-squid/meteor-attack
 api-version: 1.19
+permissions :
+    meteor.permission:
+        description: "This allows OP to invoke a meteor strike"
+        default: op
+commands:
+    meteor:
+        description: "Spawn a meteor strike near a player"
+        usage: "/meteor <arg> <arg>"
+        aliases: [met, meteor]
+        permission: meteor.permission
+        permission-message: "You are not responsible enough to wield this great power."
